@@ -18,17 +18,34 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/">Beranda</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('soina-club') }}">Program</a>
+                <!-- Dropdown Program -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="programDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Program
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="programDropdown">
+                        <li><a class="dropdown-item" href="{{ route('young-athletes') }}">Young Athletes</a></li>
+                        <li><a class="dropdown-item" href="{{ route('soina-club') }}">Soina Club</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Blog</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="programDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Tentang Kami
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="programDropdown">
+                        <li><a class="dropdown-item" href="{{ route('tentang-kami') }}">Sejarah</a></li>
+                        <li><a class="dropdown-item" href="{{ route('misi') }}">Misi</a></li>
+                        <li><a class="dropdown-item" href="{{ route('kontak-kami') }}">Kontak Kami</a></li>
+                        <li><a class="dropdown-item" href="{{ route('disabilitas-intelektual') }}">Disabilitas Intelektual</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kemitraan</a>
+                    <a class="nav-link" href="{{ route('kemitraan') }}">Kemitraan</a>
                 </li>
             </ul>
         </div>

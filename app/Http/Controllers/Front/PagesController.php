@@ -11,4 +11,34 @@ class PagesController extends Controller
     {
         return view('front.pages.program.soina_club');
     }
+
+    public function program_young_athletes()
+    {
+        return view('front.pages.program.young_athletes');
+    }
+
+    public function program_tentang_kami()
+    {
+        return view('front.pages.program.tentang_kami');
+    }
+
+    public function program_misi()
+    {
+        return view('front.pages.program.misi');
+    }
+
+    public function kontak_kami()
+    {
+        return view('front.pages.program.kontak_kami');
+    }
+
+    public function kemitraan()
+    {
+        return view('front.pages.program.kemitraan');
+    }
+
+    public function disabilitas_intelektual()
+    {
+        return view('front.pages.program.disabilitas_intelektual');
+    }
 }

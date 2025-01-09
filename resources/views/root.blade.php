@@ -154,7 +154,6 @@
                 </div>
             </div>
         </section>
-
     </div>
 
     <section class="news-section py-5 secondary-background">

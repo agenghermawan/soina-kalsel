@@ -19,3 +19,10 @@ Route::get('/', function () {
 });
 
 Route::get('/soina-club', [PagesController::class, 'program_soina_club'])->name('soina-club');
+Route::get('/young-athletes', [PagesController::class, 'program_young_athletes'])->name('young-athletes');
+Route::get('/tentang-kami', [PagesController::class, 'program_tentang_kami'])->name('tentang-kami');
+Route::get('/misi', [PagesController::class, 'program_misi'])->name('misi');
+Route::get('/kontak-kami', [PagesController::class, 'kontak_kami'])->name('kontak-kami');
+Route::get('/kemitraan', [PagesController::class, 'kemitraan'])->name('kemitraan');
+
+Route::get('/disabilitas-intelektual', [PagesController::class, 'disabilitas_intelektual'])->name('disabilitas-intelektual');

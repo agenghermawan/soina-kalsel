@@ -42,6 +42,8 @@
                         <li><a class="dropdown-item" href="{{ route('misi') }}">Misi</a></li>
                         <li><a class="dropdown-item" href="{{ route('kontak-kami') }}">Kontak Kami</a></li>
                         <li><a class="dropdown-item" href="{{ route('disabilitas-intelektual') }}">Disabilitas Intelektual</a></li>
+                        <li><a class="dropdown-item" href="{{ route('kalendar-kegiatan') }}">Kelendar Kegiatan</a></li>
+
                     </ul>
                 </li>
                 <li class="nav-item">

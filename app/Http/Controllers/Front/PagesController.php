@@ -41,4 +41,9 @@ class PagesController extends Controller
     {
         return view('front.pages.program.disabilitas_intelektual');
     }
+
+    public function kalendar_kegiatan()
+    {
+        return view('front.pages.program.kalendar_kegiatan');
+    }
 }

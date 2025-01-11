@@ -3,36 +3,13 @@
 @section('content')
     {{--  Banner --}}
     <div class="">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://soina.org/sitepad-data/uploads/2024/09/6-21-23-Awards-Gymnastics-WorldGames2023-59.jpg"
-                         class="d-block w-100" height="500px" style="object-fit: cover" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://soina.org/sitepad-data/uploads/2024/10/IMG_93055.jpg" class="d-block w-100"
-                         height="500px" style="object-fit: cover" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://soina.org/sitepad-data/uploads/2024/09/DSC_6645.jpg" class="d-block w-100"
-                         height="500px" style="object-fit: cover" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        <img src="{{  asset('images/program/young-athletes.jpg') }}" style="object-fit: cover;" width="100%" height="400px" alt="">
     </div>
 
     <div class="container my-5">
-        <h3 class="ubuntu-bold text-black text-center color-primary text-center">
-            YOUNG ATHLETES
-        </h3>
+        <div class="header text-header">
+            <h1 class="h1 text-center">Young Athletes</h1>
+        </div>
         <div class="row">
             <div class="col-md-12">
                 <p class="text-black ubuntu-regular text-md color-primary text-center">
@@ -91,7 +68,7 @@
         </div>
     </div>
 
-    <div class="my-5">
+    <div class="mt-5">
         <section class="young-section">
             <div class="row align-items-center">
                 <!-- Text Section -->

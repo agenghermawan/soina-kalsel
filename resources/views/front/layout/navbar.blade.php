@@ -2,7 +2,7 @@
     <div class="container d-flex align-items-center justify-content-between">
         <!-- Logo di kiri -->
         <a class="navbar-brand" href="/">
-            <img src="https://soina.org/sitepad-data/uploads/2024/10/logo-soina-new-60.jpg" width="400" height="100"
+            <img src="https://soina.org/sitepad-data/uploads/2024/10/logo-soina-new-60.jpg" width="300" 
                 alt="Soina Kalsel">
         </a>
 

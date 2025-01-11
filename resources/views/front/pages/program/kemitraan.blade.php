@@ -17,8 +17,8 @@
         .card-img-top {
             border-top-left-radius: 12px;
             border-top-right-radius: 12px;
-            height: 200px;
-            object-fit: cover;
+            padding: 50px;
+           
         }
 
         .card-body {
@@ -91,10 +91,11 @@
 
     {{-- Section Kemitraan --}}
     <div class="container my-5">
-        <h3 class="ubuntu-bold text-black text-center color-primary">
-            Kemitraan
-        </h3>
-        <div class="row my-5">
+        <div class="header text-header">
+            <h1 class="h1 text-center color-primary">Kemitraan</h1>
+        </div>
+
+        <div class="row">
             <div class="col-md-12 text-center">
                 <div class="d-flex flex-column align-items-center">
                     <p>
@@ -114,7 +115,7 @@
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card position-relative">
-                    <img src="https://soina.org/sitepad-data/uploads/2024/09/DSC_6645.jpg" class="card-img-top"
+                    <img src="https://soina.org/sitepad-data/uploads/2024/10/Logo-Eagle-RED.png" class="card-img-top"
                         alt="Kemitraan 1">
                     <div class="overlay">Kemitraan 1</div>
                     <div class="card-body">
@@ -126,7 +127,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card position-relative">
-                    <img src="https://soina.org/sitepad-data/uploads/2024/09/DSC_6645.jpg" class="card-img-top"
+                    <img src="https://soina.org/sitepad-data/uploads/2024/10/3.png" class="card-img-top"
                         alt="Kemitraan 2">
                     <div class="overlay">Kemitraan 2</div>
                     <div class="card-body">
@@ -137,7 +138,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card position-relative">
-                    <img src="https://soina.org/sitepad-data/uploads/2024/09/DSC_6645.jpg" class="card-img-top"
+                    <img src="https://soina.org/sitepad-data/uploads/2024/10/7.png" class="card-img-top"
                         alt="Kemitraan 3">
                     <div class="overlay">Kemitraan 3</div>
                     <div class="card-body">

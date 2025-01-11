@@ -46,4 +46,9 @@ class PagesController extends Controller
     {
         return view('front.pages.program.kalendar_kegiatan');
     }
+
+    public function blog()
+    {
+        return view('front.pages.blog.index');
+    }
 }

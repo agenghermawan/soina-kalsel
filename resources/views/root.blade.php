@@ -27,7 +27,7 @@
     </div>
 
     <div class="container my-5">
-        <h1 class="ubuntu-bold text-black text-center">Our Global Reach</h1>
+        <h1 class="ubuntu-bold text-black text-center text-36">Our Global Reach</h1>
         <p class="text-center ubuntu-light w-40 m-auto">
             Every day, Special Olympics events are taking place around the globe transforming the lives of millions of individuals with intellectual disabilities both on and off the playing field.
         </p>
@@ -77,7 +77,7 @@
                     <!-- Text Section -->
                     <div class="col-lg-6 mb-4 mb-lg-0">
                         <h1 class="hero-title">Tentang Special Olympics Indonesia</h1>
-                        <p class="ubuntu-medium text-black">
+                        <p class="text-left ubuntu-light text-black">
                             Special Olympics Indonesia (SOIna) adalah organisasi nirlaba yang diakui Pemerintah dan telah mendapat akreditasi dari <em>Special Olympics International</em> (SOI) untuk menyelenggarakan pelatihan dan kompetisi olahraga, serta inisiatif/program non-olahraga lainnya bagi Penyandang Disabilitas Intelektual (<em>Persons with Intellectual Disabilities</em>) atau Orang Bertalenta Khusus (OBK) di Indonesia.
                         </p>
                     </div>

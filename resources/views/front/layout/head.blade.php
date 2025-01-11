@@ -114,7 +114,29 @@
             margin: 0 !important;
         }
 
+        .bg-footer{
+            background: #303030;
+        }
 
+        .text-justify{
+            text-align: justify
+        }
+
+        .text-36{
+            font-size: 36px;
+        }
+
+        .text-22{
+            font-size: 22px;
+        }
+
+        .text-18{
+            font-size: 18px;
+        }
+
+        .leading-30 {
+            line-height: 30px;
+        }
     </style>
     @stack('styles')
 </head>

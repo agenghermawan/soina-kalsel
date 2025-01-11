@@ -27,3 +27,4 @@ Route::get('/kemitraan', [PagesController::class, 'kemitraan'])->name('kemitraan
 
 Route::get('/disabilitas-intelektual', [PagesController::class, 'disabilitas_intelektual'])->name('disabilitas-intelektual');
 Route::get('/kalendar-kegiatan', [PagesController::class, 'kalendar_kegiatan'])->name('kalendar-kegiatan');
+Route::get('/blog', [PagesController::class, 'blog'])->name('blog');
